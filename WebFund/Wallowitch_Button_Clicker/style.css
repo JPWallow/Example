@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: dotted red 2px; */
+}
+
+.container {
+    height: 960px;
+    width: 960px;
+    margin: auto;
+}
+
+.header {
+    background-color: rgba(128, 128, 128, 0.603);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 20px;
+}
+
+.search{
+    border: 2px solid black;
+    background-color: white;
+    color: grey;
+    height: 25px;
+    width:500px;
+}
+
+.login{
+    background-color: rgba(25, 95, 175, 0.795);
+    border: black 2px solid;
+    color: white;
+    height: 25px;
+    width: 75px;
+    box-shadow: 3px 3px black;
+}
+
+.main{
+    height: 700px;
+    display: flex;
+}
+
+.col-1{
+    flex: 2;
+    margin-right: 10px;
+}
+
+.col-2{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.emph{
+    font-style: italic;
+}
+
+.def-box{
+    border: 2px solid black;
+    margin: 20px 0px;
+    display: flex;
+    padding: 20px;
+}
+
+.word{
+    text-align: center;
+    flex: 1;
+}
+
+.like-btn{
+    height: 30px;
+    width: 75px;
+    background-color: rgb(255, 255, 103);
+    margin-top: 20px;
+    box-shadow: 3px 3px black;
+}
+
+.def{
+    text-align: center;
+    justify-content: center;
+    margin: 20px;
+    flex: 3;
+}
+
+.s-bar{
+    border: 2px solid black;
+    margin: 20px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.def-button{
+    border:2px black solid;
+    background-color: rgba(61, 146, 21, 0.74);
+    width:200px;
+    height:30px;
+    font-size: 17px;
+    box-shadow: 3px 3px black;
+    margin-top: 15px;
+}

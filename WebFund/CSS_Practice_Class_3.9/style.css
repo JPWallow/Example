@@ -1,0 +1,33 @@
+*{
+    border: 2px dotted red;
+    /* CSS Reset*/
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    width:960x;
+    margin:0px 2px;
+}
+h1 {
+    color: darkmagenta;
+    border: 2px solid blueviolet ;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: lighter;
+    width: 250px;
+    padding: 10px;
+    margin: 40px;
+    display: inline-block;
+}
+.myh1 {
+    color: brown;
+}
+
+#yourh1{
+    color: blue;
+}
+
+.div {
+    border: 1px solid black;
+}

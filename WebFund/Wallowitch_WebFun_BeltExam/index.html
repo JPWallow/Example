@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay Belt Exam Joshua Wallowitch</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="head-main">
+                <img src="images\assets\leaf.png" alt="leaf icon" class="icon-img">
+                <h1>EasyBay</h1>
+                <div class="search-bar">
+                    <p>Search for anything</p>
+                    <img src="images\assets\search-dark.png" alt="search icon" class="head-img">
+                </div>
+                <p>Sign In</p>
+                    <img src="images\assets\cart-dark.png" alt="cart icon" class="head-img" onclick="alert('Your Cart is empty!')">
+            </div>
+            <div class="head-menu">
+                <p>Aeonium</p>
+                <p>Andormischus</p>
+                <p>Agave</p>
+                <p>Aloe</p>
+                <p>Anacampseros</p>
+                <p>Aristaloe</p>
+                <p>More...</p>
+            </div>
+            <div class="head-line"></div>
+        </div>
+        <div class="main">
+            <div class="main-title">
+                <p>Your Source for Serious Succulent Specialties</p>
+            </div>
+            <div class="row-1">
+                <div class="col-1">
+                    <div class="disc-box">    
+                        <h2>Discover succ- ulent varieties one pot or rack at a time!</h2>
+                        <div class="discover">
+                            <h2>Discover</h2>
+                            <img src="images\assets\arrow-light.png" alt="arrow icon" class="arrow" >
+                        </div>
+                    </div>
+                    <img onmouseover="changeImg(this)" onmouseout="fixImg(this)" src="images\assets\succulents-1.jpg" alt="image of succulents" class="succulents">
+                </div>
+                <div class="col-2">
+                    <img src="images\assets\aloe-m.jpg" alt="image of aloe">
+                    <div class="s-box">
+                        <h2>Soothing aloe</h2>
+                        <img src="images\assets\arrow-light.png" alt="arrow icon" class="arrow">
+                    </div>
+                </div>
+                </div>
+            <div class="row-2">
+                <div class="s-bar">
+                    <div class="s-names">
+                        <img src="images\assets\aeonium-s.jpg" alt="image of aeonium" class="s-img">
+                        <p>Aeonium</p>
+                    </div>
+                    <div class="s-names">
+                        <img src="images\assets\aloe-s.jpg" alt="image of aloe" class="s-img">
+                        <p>Aloe</p>
+                    </div>
+                    <div class="s-names">
+                        <img src="images\assets\cactus-s.jpg" alt="image of cactus" class="s-img">
+                        <p>Cactus</p>
+                    </div>
+                    <div class="s-names">
+                        <img src="images\assets\echeveria-s.jpg" alt="image of echeveria" class="s-img">
+                        <p>Echeveria</p> 
+                    </div>
+                    <div class="s-names">
+                        <img src="images\assets\sedum-s.jpg" alt="image of sedum" class="s-img">  
+                        <p>Sedum</p>
+                    </div>
+                    <div class="s-names">
+                        <img src="images\assets\sempervivum-s.jpg" alt="image of sempervivum" class="s-img">
+                        <p>Sempervivum</p>
+                    </div>                   
+                </div>
+            </div>
+            <div class="cookie-box" id="div">
+                <img src="images\assets\alert-dark.png" alt="alert icon" class="alert">
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="">cookie policy</a>.</p>
+                <button onclick="hide(div)" class="accept"> I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

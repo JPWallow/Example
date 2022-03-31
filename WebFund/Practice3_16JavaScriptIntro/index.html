@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <h1 onclick="changeColor(this)">Hello World</h1>
+        <p onclick="hide(this)">Hello World</p>
+
+        <img onmouseover="changeImage(this)" onmouseout="changeImageBack(this)" class="image" src="images\KittenImg.jpg" alt="No Image Found">
+        <div>
+            <button onclick="like('#counter')">Like</button>
+
+            <p>You have <span id="counter">0</span> likes</p>
+        </div> 
+
+        <h1 onclick="timeOut()">Timeout</h1>
+
+        <h1 onclick="alert('This is my first alert!')">Alert!</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

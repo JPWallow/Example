@@ -1,0 +1,83 @@
+/* Zero's out CSS */
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+    border-radius:15px;
+}
+
+
+.wrapper {
+    border:4px solid green;
+    background-color: green;
+    justify-content:space-around;
+    height: 700px;
+    padding:20px 20px;
+    margin:30px;
+
+}
+
+.yellow-header {
+    background-color: #fcfc61;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px solid;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.bluedots {
+    background-color: #3a9ddb;
+    height:70px;
+    width:90px;
+    border-radius: 20px;
+    border: 2px solid;
+}
+.yellow-main {
+background-color: #fcfc61;
+height: 33em;
+margin-top: 20px;
+border: 2px solid;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.blue-left {
+    background-color: #3a9ddb;
+    height: 95%;
+    width: 22%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.purpledots {
+    background-color: rgb(134, 67, 134);
+    height: 60px;
+    width: 60px;
+    border: 2px solid;
+}
+.blue-right {
+    background-color: #3a9ddb;
+    height: 95%;
+    width: 72%;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.purplesquare {
+    background-color: rgb(134, 67, 134);
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+    
+}
+
+.outer {
+    margin-bottom: 50px;
+}

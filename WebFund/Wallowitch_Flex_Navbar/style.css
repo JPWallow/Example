@@ -1,0 +1,35 @@
+.nav {
+    height: 65px;
+    background-color: #353535;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-family:cursive;
+    color: white;
+}
+.nav-links{
+    font-family:cursive;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+li{
+    margin-right: 10px;
+    font-style: none;
+}
+
+.btn{
+    background-color: #56bee7;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
